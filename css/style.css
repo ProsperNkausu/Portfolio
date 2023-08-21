@@ -415,6 +415,63 @@ button {
     padding-right: 20px;
 }
 
+/* footer start */
+.footer-v1 {
+    background-color: rgba(239, 239, 239, 0.337);
+    padding: 20px 0;
+}
+
+.footer {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.container-1 {
+    padding: 0 20px;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.headline {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+}
+
+.link-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out;
+}
+
+.link-list a:hover {
+    color: rgb(5, 125, 231);
+}
+
+.fa-copyright {
+    text-align: center;
+}
+
+span {
+    color: rgb(5, 125, 231);
+}
+
+
 /* end  */
 @media (max-width: 768px) {
 
