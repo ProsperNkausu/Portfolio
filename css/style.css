@@ -4,45 +4,62 @@
     scroll-behavior: smooth;
 }
 
-.navbar img {
-    width: 150px;
+body {
+    background-color: #fff;
 }
 
-.nav {
-    padding: 10px;
-}
 
-.navbar {
+nav {
+    /* background: rgb(220, 220, 220); */
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.navbar-items {
+nav .mainMenu {
     display: flex;
     list-style: none;
+}
+
+nav .mainMenu li a {
+    display: inline-block;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: 0.2s ease;
+}
+
+nav .mainMenu li a:hover {
+    color: rgb(0, 136, 255);
+    transition-duration: 0.3s;
+}
+
+nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+    color: #000;
+}
+
+nav .mainMenu .closeMenu,
+.icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+nav img {
+    width: 150px;
 }
 
 li {
     list-style: none;
 }
 
-.navbar-links {
-    margin: 15px;
-    font-size: 17px;
-    text-transform: capitalize;
-
-}
-
-.navbar-links a {
-    text-decoration: none;
-    color: #000;
-}
-
-.navbar-links a:hover {
-    color: rgb(0, 136, 255);
-    transition-duration: 0.3s;
-}
 
 /* welcome banner */
 
@@ -191,7 +208,7 @@ hr {
 
 .inner-row {
     width: 60%;
-    background-image: url(../img/image_processing20210904-17912-1x4e5cq.gif);
+    background-color: orange;
     border-radius: 20px;
     padding: 1px;
 
@@ -477,7 +494,7 @@ button {
     color: rgb(5, 125, 231);
 }
 
-.fa-copyright {
+.copyright {
     text-align: center;
 }
 
@@ -489,12 +506,44 @@ span {
 /* end  */
 @media (max-width: 768px) {
 
-    .navbar img {
-        width: 100px;
+
+    nav .mainMenu {
+        height: 50vh;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 230px;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(5, 5, 5, 0.934);
+        transition: top 1s ease 0s;
+        display: none;
     }
 
-    .navbar-links {
-        margin: 5px;
+        nav .mainMenu li a{
+            color: #fff;
+        }
+
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+
+    nav .openMenu {
+        display: block;
+    }
+
+    nav .mainMenu li a:hover {
+        color: rgb(0, 136, 255);
+        transition-duration: 0.3s;
+    }
+
+    .icons i {
+        display: inline-block;
     }
 
     .banner {
@@ -520,7 +569,8 @@ span {
     }
 
     .btn {
-        max-width: 30%;
+        max-width: 35%;
+
         min-width: 27%;
     }
 
