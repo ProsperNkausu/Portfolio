@@ -43,7 +43,31 @@ li {
     color: rgb(0, 136, 255);
     transition-duration: 0.3s;
 }
+/* welcome banner */
 
+.icons{
+    display: flex;
+    margin-top: 10px;
+}
+.icons .linkedin a img{
+    width: 10%;
+    margin-right: -150px;
+}
+.icons .github a img{
+    width: 15%;
+    margin-left: -260px;
+}
+
+.icons .linkedin a img:hover{
+background-color: #5ba1ec;
+border-radius: 3px;
+
+}
+
+.icons .github a img:hover{
+    background-color: #999999e0;
+    border-radius: 20px;
+}
 .banner {
     justify-content: center;
     margin-left: 10%;
