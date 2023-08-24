@@ -131,7 +131,7 @@ li {
 }
 
 
-h1 {
+.h1-me ,#link2 ,#link3 ,#link4 {
     text-align: center;
     text-transform: capitalize;
 }
