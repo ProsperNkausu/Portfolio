@@ -389,7 +389,9 @@ transform: scale(1.04);
 .flex-flex{
     display: inline-flex;
 }
-
+.projects-btn{
+   
+}
 .projects-btn:nth-child(1){
     background-color: rgb(14, 99, 174);
     padding: 8px;
@@ -412,16 +414,16 @@ transform: scale(1.04);
     color: #ffffff;
 }
 
-.project-content{
+.project-content-1{
     align-content: center;
     width: 100%;
 }
 
-.project-content h1{
+.project-content-1 h1{
     float: left;
 }
 
-.project-content p{
+.project-content-1 p{
     float: left;
 }
 
@@ -429,7 +431,7 @@ transform: scale(1.04);
     margin-bottom: 20px;
 }
 
-.project-content p{
+.project-content-1 p{
     margin-bottom: 4px;
 }
 .card {
@@ -696,9 +698,11 @@ span {
         margin-left: 45%;
     }
 
-        .projects-1{
+      .projects-1{
             flex-wrap: wrap;
         }
+
+                .project-content
     .row {
         width: 100%;
     }
