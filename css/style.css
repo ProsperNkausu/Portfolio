@@ -9,7 +9,6 @@ body {
 }
 
 nav {
-    /* background: rgb(220, 220, 220); */
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
@@ -97,8 +96,7 @@ li {
 
 .btn {
     background-color: rgba(5, 5, 5, 0.727);
-    max-width: 20%;
-    min-width: 23%;
+    width: 15%;
     text-align: center;
     padding: 10px;
     margin-top: 10px;
@@ -371,6 +369,69 @@ button:hover{
     padding: 10px;
 }
 
+.projects-1{
+    display: inline-flex;
+    /* align-items: center; */
+   
+}
+
+.projects-1 img{
+    width: 98%;
+    transition: 0.5s all ease-out;
+    
+}
+
+.projects-1 img:hover{
+transform: scale(1.04);
+
+}
+
+.flex-flex{
+    display: inline-flex;
+}
+
+.projects-btn:nth-child(1){
+    background-color: rgb(14, 99, 174);
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.projects-btn:nth-child(2) {
+    background-color: rgba(18, 17, 17, 0.871);
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+.projects-btn a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.project-content{
+    align-content: center;
+    width: 100%;
+}
+
+.project-content h1{
+    float: left;
+}
+
+.project-content p{
+    float: left;
+}
+
+.project-content h1{
+    margin-bottom: 20px;
+}
+
+.project-content p{
+    margin-bottom: 4px;
+}
 .card {
 
     display: flex;

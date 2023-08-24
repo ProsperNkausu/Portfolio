@@ -39,3 +39,15 @@ function sendEmail() {
         message => alert("Message sent Succefully")
     );
 }
+
+function Myfunction() {
+    window.open("https://www.linkedin.com/in/prosper-nkausu/")
+}
+
+function Mygit() {
+    window.open("https://github.com/ProsperNkausu/Portfolio.git")
+}
+
+function Mysource() {
+    window.open("https://github.com/ProsperNkausu/Swimming.com/blob/main/index.html")
+}
