@@ -9,7 +9,7 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
     integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
- 
+
 </head>
 
 <body>
@@ -18,11 +18,11 @@
       <img src="img/navBranding.png" alt="" srcset="">
       <div class="openMenu"><i class="fa fa-bars"></i></div>
       <ul class="mainMenu">
-    <li class="navbar-links"><a href="">home</a></li>
-    <li class="navbar-links"><a href="#link1">about me</a></li>
-    <li class="navbar-links"><a href="#link2">skills</a></li>
-    <li class="navbar-links"><a href="#link3">projects</a></li>
-    <li class="navbar-links"><a href="#link4">contact</a></li>
+        <li class="navbar-links"><a href="">home</a></li>
+        <li class="navbar-links"><a href="#link1">about me</a></li>
+        <li class="navbar-links"><a href="#link2">skills</a></li>
+        <li class="navbar-links"><a href="#link3">projects</a></li>
+        <li class="navbar-links"><a href="#link4">contact</a></li>
         <div class="closeMenu"><i class="fa fa-times"></i></div>
       </ul>
     </nav>
@@ -33,12 +33,10 @@
         <div class="intro-content">
           <h2>hi am prosper,</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-            asperiores suscipit, culpa nulla exercitationem vel quo inventore
-            libero doloremque sapiente architecto? Porro magni eaque saepe
-            consequuntur voluptas aliquid nam maiores?
+            a passionate frontend developer with a keen eye for design and a knack for creating seamless user
+            experiences.
           </p>
-          <li class="btn"><a href="resume.html">View Resume</a></li>
+          <li class="btn"><a href="">View Resume</a></li>
           <div class="icons">
             <li class="linkedin"><a href="https://www.linkedin.com/in/rosper-nkausu"><img src="img/llogo.png" alt=""
                   srcset=""></a></li>
@@ -59,10 +57,10 @@
         <img src="img/undraw_version_control_re_mg66.png" alt="" srcset="" />
         <div class="me">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            harum neque vitae, eveniet delectus, culpa quod in, praesentium
-            porro nesciunt voluptatum nam inventore nostrum natus debitis
-            facilis eos quasi! Eveniet?
+            When i first started learning how to code, the first few weeks i felt like giving up. But as time went by, i
+            looked back to what i needed to do and how things were going which later made me want to archive my goals as
+            a developer. After more code and practice, i couldnt believe that i could do this but hey here we are and
+            still learning new things.
           </p>
         </div>
       </div>
@@ -100,6 +98,15 @@
         </div>
 
         <div class="skill-set">
+          <h3>MYSQL</h3>
+          <div class="row">
+            <div class="inner-row-6">
+              <p class="inner">20%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-set">
           <h3>PHP</h3>
           <div class="row">
             <div class="inner-row-4">
@@ -122,8 +129,8 @@
     <div class="projects">
       <h1 id="link3">projects</h1>
       <hr />
-
-      <!-- <div class="card">
+<!-- 
+       <div class="card">
 
           <div class="cards">
             <img src="img/TO-DO-LIST.png" />
@@ -160,7 +167,6 @@
     <div class="contact">
       <h1 id="link4">contact</h1>
       <hr />
-
       <div class="get-intouch">
         <h2>Get In Touch</h2>
         <div class="details">
@@ -172,11 +178,13 @@
           </div>
 
           <div class="email-me">
-            <h3>Send a Message</h3>
-            <input class="input-1" type="text" placeholder="enter email" />
-            <input class="input-2" type="tel" placeholder="enter phone number" id="" />
-            <textarea placeholder="write a message..." rows="0"></textarea>
-            <button>Send</button>
+            <form onsubmit="sendEmail(), reset(); return false;">
+              <h3>Send a Message</h3>
+              <input class="input-1" id="email" type="text" placeholder="enter email" required />
+              <input class="input-2" id="phonenumber" type="tel" placeholder="enter phone number" required />
+              <textarea id="message" placeholder="write a message..." rows="0"></textarea>
+              <button type="submit">Send</button>
+            </form>
           </div>
         </div>
       </div>
@@ -215,7 +223,7 @@
         </ul>
       </div>
     </div>
-    <p class= "copyright">
+    <p class="copyright">
       <i aria-hidden="true"><span>CopyRight</span>© All Rights Reserved | Created by Prosper {Divs}</i>
     </p>
   </div>
@@ -223,4 +231,5 @@
   </div>
   <script src="js/function.js"></script>
 </body>
+
 </html>

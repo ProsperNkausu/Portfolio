@@ -23,3 +23,19 @@ function show(){
 function close(){
     mainMenu.style.top = '-100%';
 }
+
+function sendEmail() {
+    sendEmail.send({
+        Host: "smtp.gmail.com",
+        Usernamer: "prospernkausu@gmail.com",
+        Password: "password",
+        To: "prospernkausu@gmail.com",
+        From: document.getElementById("email").value,
+        Subject: "New Enquiry",
+        Body: "Name: " + document.getElementById("email").value
+            + "<br> Phone no: " + document.getElementById("phonenumber").value
+        + "<br> Message" + document.getElementById("message").value
+    }).then(
+        message => alert("Message sent Succefully")
+    );
+}

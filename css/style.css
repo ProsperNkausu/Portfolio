@@ -3,9 +3,11 @@
     margin: 0;
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background: #fff;
 }
+
 nav {
     /* background: rgb(220, 220, 220); */
     color: rgb(255, 255, 255);
@@ -86,7 +88,7 @@ li {
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .banner img {
@@ -237,8 +239,15 @@ hr {
 }
 
 .inner-row-5 {
-    width: 15%;
+    width: 9%;
     background: rgb(229, 65, 65);
+    border-radius: 20px;
+    padding: 1px;
+}
+
+.inner-row-6 {
+    width: 20%;
+    background: rgba(6, 49, 94, 0.489);
     border-radius: 20px;
     padding: 1px;
 }
@@ -318,13 +327,17 @@ textarea {
 
 button {
     padding: 10px;
+    cursor: pointer;
     border: none;
     border-radius: 10px;
     margin-top: 10px;
     background-color: rgb(117, 117, 117);
     color: #fff;
     text-transform: uppercase;
+}
 
+button:hover{
+    background-color: #5ba1ec;
 }
 
 .input-1 {
@@ -519,9 +532,9 @@ span {
         display: none;
     }
 
-        nav .mainMenu li a{
-            color: #fff;
-        }
+    nav .mainMenu li a {
+        color: #fff;
+    }
 
     nav .mainMenu .closeMenu {
         display: block;
