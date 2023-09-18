@@ -51,3 +51,7 @@ function Mygit() {
 function Mysource() {
     window.open("https://github.com/ProsperNkausu/Swimming.com/blob/main/index.html")
 }
+
+function Mysource() {
+    window.open("https://github.com/ProsperNkausu/FevenSalon/blob/main/index.html")
+}
