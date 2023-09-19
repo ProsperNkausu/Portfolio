@@ -53,5 +53,5 @@ function Mysource() {
 }
 
 function Mysource() {
-    window.open("https://github.com/ProsperNkausu/FevenSalon/blob/main/index.html")
+    window.open("https://github.com/ProsperNkausu/FevenSalon.git")
 }
