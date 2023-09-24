@@ -27,7 +27,7 @@ function close(){
 function sendEmail() {
     sendEmail.send({
         Host: "smtp.gmail.com",
-        Usernamer: "prospernkausu@gmail.com",
+        Username: "prospernkausu@gmail.com",
         Password: "password",
         To: "prospernkausu@gmail.com",
         From: document.getElementById("email").value,
