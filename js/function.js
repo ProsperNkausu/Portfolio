@@ -53,5 +53,5 @@ function Myswim() {
 }
 
 function Mysource() {
-    window.open("https://github.com/ProsperNkausu/FevenSalon.git")
+    window.open("https://github.com/ProsperNkausu/FevenSalon/blob/main/index.html")
 }
