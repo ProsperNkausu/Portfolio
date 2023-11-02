@@ -48,7 +48,7 @@ function Mygit() {
     window.open("https://github.com/ProsperNkausu/Portfolio.git")
 }
 
-function Mysource() {
+function Myswim() {
     window.open("https://github.com/ProsperNkausu/Swimming.com/blob/main/index.html")
 }
 
